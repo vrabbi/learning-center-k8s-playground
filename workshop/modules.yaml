@@ -1,12 +1,4 @@
 modules:
   workshop-overview:
     name: Workshop Overview
-    exit_sign: Setup Environment
-  setup-environment:
-    name: Setup Environment
-    exit_sign: Start Workshop
-  exercises/using-vcluster:
-    name: Using Vcluster
-  workshop-summary:
-    name: Workshop Summary
     exit_sign: Finish Workshop
