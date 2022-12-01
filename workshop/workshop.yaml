@@ -1,0 +1,7 @@
+name: k8s-playground
+modules:
+  activate:
+  - workshop-overview
+  - setup-environment
+  - expercies/using-vcluster
+  - workshop-summary

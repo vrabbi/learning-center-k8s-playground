@@ -1,0 +1,20 @@
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
+kind: TrainingPortal
+metadata:
+  name: k8s-playground-portal
+spec:
+  portal:
+    ingress:
+      hostname: k8s-playground-portal
+    registration:
+      enabled: true
+      type: anonymous
+    reserved: 0
+    sessions:
+      maximum: 10
+    updates:
+      workshop: true
+  workshops:
+  - expires: 2h
+    name: k8s-playground
+    orphaned: 2h

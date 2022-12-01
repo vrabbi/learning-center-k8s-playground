@@ -1,0 +1,34 @@
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
+kind: Workshop
+metadata:
+  name: k8s-playground
+spec:
+  vendor: terasky
+  duration: 2h
+  difficulty: beginner
+  content:
+    files: github.com/vrabbi-tap/learning-center-k8s-playground
+  description: A Kubernetes Playground based on vCluster
+  session:
+    resources:
+      memory: 1Gi
+    applications:
+      console:
+        enabled: true
+        vendor: octant
+      docker:
+        enabled: true
+        memory: 768Mi
+        storage: 5Gi
+      editor:
+        enabled: true
+      registry:
+        enabled: true
+        memory: 768Mi
+        storage: 5Gi
+      terminal:
+        enabled: true
+        layout: split
+    namespaces:
+      budget: small
+  title: Kubernetes Playground
