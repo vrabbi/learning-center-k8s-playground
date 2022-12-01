@@ -7,7 +7,7 @@ spec:
   duration: 2h
   difficulty: beginner
   content:
-    files: github.com/vrabbi-tap/learning-center-k8s-playground
+    files: github.com/vrabbi/learning-center-k8s-playground
   description: A Kubernetes Playground based on vCluster
   title: K8s Playground
   session:
